@@ -4,9 +4,12 @@ import './style.css';
 
 const StarButton = () => (
     <div>
-    <span>"logo"</span>
+    {/* <span>"logo"</span> */}
+    {/* <img src="ok-life-care.png" alt="Logo"/> */}
+    <img src={require(`./ok-life-care.png`)} alt="Logo"/>
+    <br/>
   <span className="star-button-container">
-       <strong>Get Printed</strong>
+       <strong>Welcome to "OK Life Care" Store By Ramesh Sharma</strong>
   </span>
   </div>
 );

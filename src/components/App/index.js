@@ -11,7 +11,7 @@ const App = () => (
     {/* <GithubCorner /> */}
     <StarButton />
     <main>
-      <Filter />
+      {/* <Filter /> */}
       <Shelf />
     </main>
     <FloatCart />

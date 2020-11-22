@@ -84,11 +84,19 @@ class FloatCart extends Component {
       currencyId
     } = this.props.cartTotal;
 
+    const { cartProducts } = this.props;
+
+    // let str = "";
+    // cartProducts.map(eachProduct => {
+    //   str += "Product-"eachProduct.title;
+    // });
     if (!productQuantity) {
       alert('Add some product in the cart!');
     } else {
       alert(
-        `Checkout - Subtotal: ${currencyFormat} ${formatPrice(
+        `
+        ${<a href="https://wa.me/918058534674/It's%20successful"></a>}
+        Checkout - Subtotal: Rs ${formatPrice(
           totalPrice,
           currencyId
         )} \nCall or WhatsApp 'Get Printed' to 9636XXXX76`
@@ -121,6 +129,11 @@ class FloatCart extends Component {
     if (!!this.state.isOpen) {
       classes.push('float-cart--open');
     }
+
+    let str = "https://wa.me/918058534674/";
+    cartProducts.map(eachProduct => {
+      str += "Product: " + eachProduct.title + ", Quantity: " + eachProduct.quantity + ", Price: " + eachProduct.price + "%0a";
+    });
 
     return (
       <div className={classes.join(' ')}>
@@ -163,30 +176,37 @@ class FloatCart extends Component {
           </div>
 
           <div className="float-cart__footer">
-            <div className="sub">SUBTOTAL</div>
-            <div className="sub-price">
-              <p className="sub-price__val">
-                {`${cartTotal.currencyFormat} ${formatPrice(
-                  cartTotal.totalPrice,
-                  cartTotal.currencyId
-                )}`}
-              </p>
-              <small className="sub-price__installment">
-                {!!cartTotal.installments && (
-                  <span>
-                    {`OR UP TO ${cartTotal.installments} x ${
-                      cartTotal.currencyFormat
-                    } ${formatPrice(
-                      cartTotal.totalPrice / cartTotal.installments,
+            {products.length && (
+              <div>
+                <div className="sub">SUBTOTAL</div>
+                <div className="sub-price">
+                  <p className="sub-price__val">
+                    {`Rs ${formatPrice(
+                      cartTotal.totalPrice,
                       cartTotal.currencyId
                     )}`}
-                  </span>
-                )}
-              </small>
-            </div>
-            <div onClick={() => this.proceedToCheckout()} className="buy-btn">
+                  </p>
+                  <small className="sub-price__installment">
+                    {!!cartTotal.installments && (
+                      <span>
+                        {`OR UP TO ${cartTotal.installments} x ${
+                          cartTotal.currencyFormat
+                          } ${formatPrice(
+                            cartTotal.totalPrice / cartTotal.installments,
+                            cartTotal.currencyId
+                          )}`}
+                      </span>
+                    )}
+                  </small>
+                </div>
+                {/* <div onClick={() => this.proceedToCheckout()} className="buy-btn">
               Checkout
-            </div>
+            </div> */}
+                <div className="buy-btn">
+                  <a href={str}>Checkout</a>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
