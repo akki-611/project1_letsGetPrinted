@@ -77,31 +77,31 @@ class FloatCart extends Component {
   };
 
   proceedToCheckout = () => {
-    const {
-      totalPrice,
-      productQuantity,
-      currencyFormat,
-      currencyId
-    } = this.props.cartTotal;
+    // const {
+    //   totalPrice,
+    //   productQuantity,
+    //   currencyFormat,
+    //   currencyId
+    // } = this.props.cartTotal;
 
-    const { cartProducts } = this.props;
+    // const { cartProducts } = this.props;
 
-    // let str = "";
-    // cartProducts.map(eachProduct => {
-    //   str += "Product-"eachProduct.title;
-    // });
-    if (!productQuantity) {
-      alert('Add some product in the cart!');
-    } else {
-      alert(
-        `
-        ${<a href="https://wa.me/918058534674/It's%20successful"></a>}
-        Checkout - Subtotal: Rs ${formatPrice(
-          totalPrice,
-          currencyId
-        )} \nCall or WhatsApp 'Get Printed' to 9636XXXX76`
-      );
-    }
+    // // let str = "";
+    // // cartProducts.map(eachProduct => {
+    // //   str += "Product-"eachProduct.title;
+    // // });
+    // if (!productQuantity) {
+    //   alert('Add some product in the cart!');
+    // } else {
+    //   alert(
+    //     `
+    //     ${<a href="https://wa.me/918058534674/It's%20successful"></a>}
+    //     Checkout - Subtotal: Rs ${formatPrice(
+    //       totalPrice,
+    //       currencyId
+    //     )} \nCall or WhatsApp 'Get Printed' to 9636XXXX76`
+    //   );
+    // }
   };
 
   changeProductQuantity = changedProduct => {
