@@ -16,15 +16,15 @@
 
     {
       "id": 13,
-      "sku": 51498472915966366,
-      "title": "Dark Thug Blue-Navy T-Shirt",
+      "sku": 4252017122520,
+      "title": "Panch Tulsi 25 Ml",
       "description": "",
       "availableSizes": ["M"],
-      "style": "Front print and paisley print",
-      "price": 29.45,
-      "installments": 5,
-      "currencyId": "USD",
-      "currencyFormat": "$",
+      "style": "Helps to fight virus",
+      "price": 190,
+      "installments": 0,
+      "currencyId": "INR",
+      "currencyFormat": "Rs",
       "isFreeShipping": true
     },
 
