@@ -130,7 +130,7 @@ class FloatCart extends Component {
       classes.push('float-cart--open');
     }
 
-    let str = "https://wa.me/918058534674/";
+    let str = "https://wa.me/918058534674?text=";
     cartProducts.map(eachProduct => {
       str += "Product: " + eachProduct.title + ", Quantity: " + eachProduct.quantity + ", Price: " + eachProduct.price + "%0a";
     });
