@@ -34,7 +34,7 @@ const Product = ({ product, addProduct }) => {
       data-sku={product.sku}
     >
       {product.isFreeShipping && (
-        <div className="shelf-stopper">Free shipping</div>
+        <div className="shelf-stopper">In demand</div>
       )}
       <Thumb
         classes="shelf-item__thumb"
@@ -48,7 +48,6 @@ const Product = ({ product, addProduct }) => {
           <b>{formattedPrice.substr(0, formattedPrice.length - 3)}</b>
           <span>{formattedPrice.substr(formattedPrice.length - 3, 3)}</span>
         </div>
-        {/* {productInstallment} */}
       </div>
       <div className="shelf-item__buy-btn">Add to cart</div>
     </div>

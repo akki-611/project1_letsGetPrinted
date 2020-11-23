@@ -199,12 +199,11 @@ class FloatCart extends Component {
                     )}
                   </small>
                 </div>
-                {/* <div onClick={() => this.proceedToCheckout()} className="buy-btn">
-              Checkout
-            </div> */}
-                <div className="buy-btn">
-                  <a href={str}>Checkout</a>
-                </div>
+                  <a href={str} className="buy-btn">
+                  <div className="buy-btn">
+                    Checkout
+                    </div>
+                    </a>
               </div>
             )}
           </div>

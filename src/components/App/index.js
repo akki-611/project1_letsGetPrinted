@@ -8,7 +8,6 @@ import StarButton from '../Title/HeaderFile';
 
 const App = () => (
   <React.Fragment>
-    {/* <GithubCorner /> */}
     <StarButton />
     <main>
       {/* <Filter /> */}
