@@ -5,6 +5,7 @@ import Filter from '../Shelf/Filter';
 // import GithubCorner from '../github/Corner';
 import FloatCart from '../FloatCart';
 import StarButton from '../Title/HeaderFile';
+import Footer from '../Footer/FooterFile';
 
 const App = () => (
   <React.Fragment>
@@ -14,6 +15,7 @@ const App = () => (
       <Shelf />
     </main>
     <FloatCart />
+    <Footer />
   </React.Fragment>
 );
 

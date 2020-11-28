@@ -56,6 +56,12 @@ main {
           margin-top: 5px;
           padding: 0;
         }
+
+        &__thumb {
+          img {
+            height: 150px;
+          }
+        }
       }
     }
 

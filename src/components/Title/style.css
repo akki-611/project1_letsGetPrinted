@@ -1,10 +1,13 @@
 .star-button-container {
-    color: blueviolet;
+    color: #f7786b;
     margin-left: 30px;
     font-size: 40px;
-    /* padding-right: 40px; */
 }
 
 .extra-new {
     text-align: center;
+}
+
+.first-line {
+    margin-top: 10px;
 }

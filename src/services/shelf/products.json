@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "id": 12,
+      "id": 0,
       "sku": 4492017124936,
       "title": "Cough Fighter (Cough Syrup)",
-      "description": "4 MSL",
+      "description": "",
       "availableSizes": ["S", "XS"],
       "style": "Helps to fight cough",
       "price": 60,
@@ -14,17 +14,69 @@
       "isFreeShipping": true
     },
     {
-      "id": 13,
-      "sku": 4252017122520,
-      "title": "Panch Tulsi 25 Ml",
+      "id": 1,
+      "sku": 2811202002,
+      "title": "Smile Care Toothpaste",
       "description": "",
       "availableSizes": ["M"],
-      "style": "Helps to fight virus",
-      "price": 190,
+      "style": "Goodness of herbal extract like clove",
+      "price": 65,
       "installments": 0,
       "currencyId": "INR",
       "currencyFormat": "Rs",
       "isFreeShipping": true
+    },
+    {
+      "id": 2,
+      "sku": 2811202001,
+      "title": "BetterU Bathing Soap",
+      "description": "",
+      "availableSizes": ["M"],
+      "style": "Bathing bar containing natural extracts",
+      "price": 36,
+      "installments": 0,
+      "currencyId": "INR",
+      "currencyFormat": "Rs",
+      "isFreeShipping": true
+    },
+    {
+      "id": 3,
+      "sku": 12345,
+      "title": "Organic Spices",
+      "description": "",
+      "availableSizes": ["M"],
+      "style": "Free from chemicals and pesticides",
+      "price": 115,
+      "installments": 0,
+      "currencyId": "INR",
+      "currencyFormat": "Rs",
+      "isFreeShipping": true
+    },
+    {
+      "id": 4,
+      "sku": 28052019,
+      "title": "Rice Bran Oil 2L",
+      "description": "",
+      "availableSizes": ["M"],
+      "style": "Nutricious edible oil containing vit.A & D2",
+      "price": 320,
+      "installments": 0,
+      "currencyId": "INR",
+      "currencyFormat": "Rs",
+      "isFreeShipping": true
+    },
+    {
+      "id": 4,
+      "sku": 12345,
+      "title": "OK Detergent Powder",
+      "description": "",
+      "availableSizes": ["M"],
+      "style": "Clean clothes and spread fragrance",
+      "price": 120,
+      "installments": 0,
+      "currencyId": "INR",
+      "currencyFormat": "Rs",
+      "isFreeShipping": false
     }
   ]
 }
