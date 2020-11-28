@@ -30,8 +30,8 @@ const Product = ({ product, addProduct }) => {
   return (
     <div
       className="shelf-item"
-      onClick={() => addProduct(product)}
-      data-sku={product.sku}
+      // onClick={() => addProduct(product)}
+      // data-sku={product.sku}
     >
       {product.isFreeShipping && (
         <div className="shelf-stopper">In demand</div>
@@ -49,7 +49,10 @@ const Product = ({ product, addProduct }) => {
           <span>{formattedPrice.substr(formattedPrice.length - 3, 3)}</span>
         </div>
       </div>
-      <div className="shelf-item__buy-btn">Add to cart</div>
+      <div className="shelf-item__buy-btn"
+      onClick={() => addProduct(product)}
+      data-sku={product.sku}
+      >Add to cart</div>
     </div>
   );
 };

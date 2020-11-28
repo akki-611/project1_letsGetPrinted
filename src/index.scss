@@ -34,6 +34,34 @@ main {
 
       .shelf-item {
         width: 33.33%;
+
+        &__thumb {
+          img {
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    .filters {
+      width: 20%;
+    }
+
+    .shelf-container {
+      width: 80%;
+
+      .shelf-item {
+        width: 33.33%;
+
+        &__thumb {
+          img {
+            height: 200px;
+          }
+        }
       }
     }
   }
