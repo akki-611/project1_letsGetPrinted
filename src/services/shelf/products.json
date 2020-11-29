@@ -145,7 +145,7 @@
     },
     {
       "id": 11,
-      "sku": 1010,
+      "sku": 1011,
       "title": "Organic Dhaniya Powder",
       "description": "",
       "availableSizes": ["Home"],
@@ -158,7 +158,7 @@
     },
     {
       "id": 12,
-      "sku": 1010,
+      "sku": 1012,
       "title": "Organic Garam Masala",
       "description": "",
       "availableSizes": ["Home"],
@@ -171,7 +171,7 @@
     },
     {
       "id": 13,
-      "sku": 1010,
+      "sku": 1013,
       "title": "Organic Turmeric Powder",
       "description": "",
       "availableSizes": ["Home"],
@@ -197,7 +197,7 @@
     },
     {
       "id": 15,
-      "sku": 1010,
+      "sku": 1015,
       "title": "Organic Tandoori Masala",
       "description": "",
       "availableSizes": ["Home"],
@@ -223,7 +223,7 @@
     },
     {
       "id": 17,
-      "sku": 1010,
+      "sku": 1017,
       "title": "Organic Shahi Paneer Masala",
       "description": "",
       "availableSizes": ["Home"],
@@ -236,7 +236,7 @@
     },
     {
       "id": 18,
-      "sku": 1010,
+      "sku": 1018,
       "title": "Organic Chaat Masala",
       "description": "",
       "availableSizes": ["Home"],
