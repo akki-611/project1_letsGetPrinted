@@ -8,7 +8,7 @@ import Checkbox from '../../Checkbox';
 
 import './style.scss';
 
-const availableSizes = ['XS', 'S', 'M', 'ML', 'L', 'XL', 'XXL'];
+const availableSizes = ['Health', 'Home', 'Personal', 'Others'];
 
 const Filter = props => {
   const selectedCheckboxes = new Set();
@@ -36,7 +36,7 @@ const Filter = props => {
 
   return (
     <div className="filters">
-      <h4 className="title">Sizes:</h4>
+      <div className="title-new">Filter by</div>
       {createCheckboxes()}
       {/* <GithubStarButton /> */}
     </div>

@@ -11,7 +11,7 @@ const App = () => (
   <React.Fragment>
     <StarButton />
     <main>
-      {/* <Filter /> */}
+      <Filter />
       <Shelf />
     </main>
     <FloatCart />

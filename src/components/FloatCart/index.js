@@ -95,7 +95,7 @@ class FloatCart extends Component {
     // } else {
     //   alert(
     //     `
-    //     ${<a href="https://wa.me/918058534674/It's%20successful"></a>}
+    //     ${<a href="https://wa.me/91/It's%20successful"></a>}
     //     Checkout - Subtotal: Rs ${formatPrice(
     //       totalPrice,
     //       currencyId
@@ -130,7 +130,7 @@ class FloatCart extends Component {
       classes.push('float-cart--open');
     }
 
-    let str = "https://wa.me/918058534674?text=";
+    let str = "https://wa.me/919214036051?text=";
     cartProducts.map(eachProduct => {
       str += "Product: " + eachProduct.title + ", Quantity: " + eachProduct.quantity + ", Price: " + eachProduct.price + "%0a";
     });
